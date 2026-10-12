@@ -1,0 +1,20 @@
+{
+  "name": "empfehlungsbund",
+  "interface": {
+    "displayName": "Empfehlungsbund"
+  },
+  "plugins": [
+    {
+      "name": "empfehlungsbund-arbeitgeber",
+      "source": {
+        "source": "local",
+        "path": "./plugins/empfehlungsbund-arbeitgeber"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

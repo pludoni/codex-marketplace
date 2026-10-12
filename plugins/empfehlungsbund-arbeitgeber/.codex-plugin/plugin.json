@@ -1,0 +1,39 @@
+{
+  "name": "empfehlungsbund-arbeitgeber",
+  "version": "1.0.0",
+  "description": "Für Partnerfirmen: Empfehlungsbund-Firmenaccount (login.empfehlungsbund.de) per MCP, Profil, Ansprechpartner, Stellen und Statistik.",
+  "author": {
+    "name": "pludoni GmbH",
+    "email": "info@pludoni.de",
+    "url": "https://www.pludoni.de"
+  },
+  "keywords": [
+    "empfehlungsbund",
+    "recruiting",
+    "stellenanzeigen",
+    "employer-branding"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Empfehlungsbund für Arbeitgeber",
+    "shortDescription": "Firmenprofil, Stellen und Statistik im Empfehlungsbund-Login pflegen",
+    "longDescription": "App für Partnerfirmen und Kunden des Empfehlungsbunds. Verbindet Codex per OAuth mit dem eigenen Firmen-Account unter login.empfehlungsbund.de: Firmenprofil, Ansprechpartner, Standorte und Stellen pflegen, Stellenentwürfe anlegen, Klick- und Bewerbungsstatistiken sowie Meldungen abrufen. Neue Stellen entstehen als unsichtbarer Entwurf, Bewerberdaten sind über die Schnittstelle nicht zugänglich. Der KI-Agenten-Zugang wird pro Firma von pludoni freigeschaltet.",
+    "developerName": "pludoni GmbH",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://login.empfehlungsbund.de",
+    "privacyPolicyURL": "https://www.empfehlungsbund.de/datenschutz",
+    "termsOfServiceURL": "https://www.empfehlungsbund.de/agb",
+    "defaultPrompt": [
+      "Zeig mir das Briefing zu unserem Empfehlungsbund-Account",
+      "Welche unserer Stellen haben Importprobleme?",
+      "Wie viele Klicks hatten unsere Stellen letzten Monat?"
+    ],
+    "brandColor": "#206C80",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "empfehlungsbund-arbeitgeber": {
+      "type": "streamable-http",
+      "url": "https://login.empfehlungsbund.de/mcp"
+    }
+  }
+}
