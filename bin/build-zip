@@ -1,0 +1,9 @@
+#!/bin/sh
+# Baut das Upload-Zip fuer platform.openai.com/plugins (plugin.json muss im Zip-Root liegen).
+set -e
+cd "$(dirname "$0")/../plugins/empfehlungsbund-arbeitgeber"
+version=$(sed -n 's/.*"version": "\(.*\)".*/\1/p' plugin.json | head -1)
+out="../../dist/empfehlungsbund-arbeitgeber-$version.zip"
+mkdir -p ../../dist && rm -f "$out"
+zip -qr -X "$out" plugin.json mcp.json .codex-plugin .mcp.json assets
+echo "$out"
