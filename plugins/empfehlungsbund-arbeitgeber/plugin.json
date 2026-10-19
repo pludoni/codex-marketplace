@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "empfehlungsbund-arbeitgeber",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Job ads, employer profile and statistics for Empfehlungsbund employers (login.empfehlungsbund.de).",
   "author": {
     "name": "pludoni GmbH",
@@ -23,7 +23,7 @@
         "shortDescription": "Manage your job ads & profile",
         "longDescription": "Recruiting tool for employers in the Empfehlungsbund network (German job boards such as empfehlungsbund.de, ITsax.de and faire-karriere.de). Companies connect their own employer account at login.empfehlungsbund.de via OAuth and let the agent maintain their job ads and employer profile: create job ad drafts, update jobs, company description, benefits, locations and contact persons, check import problems of job feeds, and read click and application statistics per month or job.\n\nNew jobs are always created as invisible drafts; publishing requires explicit confirmation. Applicant data (applications, CVs, applicant contact details) is never available through this plugin. Access is limited to the connected user's roles and must be enabled for the company by Empfehlungsbund (pludoni GmbH).",
         "developerName": "pludoni GmbH",
-        "category": "Business",
+        "category": "Business & Operations",
         "capabilities": [
           "Manage job ads",
           "Edit employer profile",
